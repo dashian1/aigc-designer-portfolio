@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="龚波安 · AIGC 创意设计师作品集，展示 AI 视频、品牌全案、Prompt Engineering 及 Workflow 自动化项目。" />
+    <title>龚波安 | AIGC 创意设计师作品集</title>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="intro-locked">
+    <div class="intro-gate" aria-label="开场视频">
+      <video
+        class="intro-video"
+        src="./assets/compressed/intro.mp4"
+        poster="./assets/frames/frame-01.jpg"
+        muted
+        playsinline
+        preload="metadata"
+      ></video>
+      <div class="pixel-shade" aria-hidden="true"></div>
+      <div class="intro-hud" aria-hidden="true">
+        <span>AIGC / Portfolio Reel</span>
+        <span class="intro-time">00:00</span>
+      </div>
+      <button class="intro-skip" type="button">跳过开场</button>
+      <div class="intro-progress" aria-hidden="true"><span></span></div>
+    </div>
+
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到顶部">
+        <span class="brand-mark">龚</span>
+        <span>龚波安</span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#about">档案</a>
+        <a href="#experience">经历</a>
+        <a href="#work">项目</a>
+        <a href="#reel">影像</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="command-deck section-shell">
+        <aside class="profile-poster reveal-item">
+          <span class="poster-kicker">AIGC Creative Designer</span>
+          <h1>龚波安</h1>
+          <p>AIGC 创意设计师，从 Prompt 到成片、从 Workflow 到品牌资产——把 AI 能力变成可交付的商业视觉系统。</p>
+          <div class="poster-tags">
+            <span>AI视频</span>
+            <span>品牌全案</span>
+            <span>Prompt Eng</span>
+            <span>Workflow</span>
+          </div>
+        </aside>
+
+        <section class="deck-main reveal-item">
+          <div class="ticker" aria-hidden="true">
+            <span>NOW LOADING: AIGC portfolio / AI video reel / prompt workflow / brand creative system</span>
+          </div>
+          <p class="pixel-label">Main Menu</p>
+          <h2>把 AI 创意能力变成可交付的视觉系统。</h2>
+          <p class="deck-copy">
+            从 Prompt 到成片，从 Workflow 到品牌资产。这里不是传统作品集，是一张 AI 内容生产能力的全景地图。
+          </p>
+          <div class="main-menu" aria-label="主页菜单">
+            <a class="menu-item" href="#about">
+              <span>01</span>
+              <strong>Player File</strong>
+              <small>个人档案与技能库存</small>
+            </a>
+            <a class="menu-item" href="#experience">
+              <span>02</span>
+              <strong>Career Log</strong>
+              <small>工作经历与实战记录</small>
+            </a>
+            <a class="menu-item" href="#work">
+              <span>03</span>
+              <strong>Mission Board</strong>
+              <small>项目作品与代表作品</small>
+            </a>
+            <a class="menu-item" href="#reel">
+              <span>04</span>
+              <strong>Video Reel</strong>
+              <small>影像卷轴与作品混剪</small>
+            </a>
+          </div>
+        </section>
+
+        <aside class="cabinet-card reveal-item">
+          <div class="cabinet-top">
+            <span>Featured Work</span>
+            <strong>28</strong>
+          </div>
+          <video
+            class="machine-screen"
+            src="./assets/compressed/intro.mp4"
+            poster="./assets/frames/frame-03.jpg"
+            muted
+            loop
+            playsinline
+            preload="none"
+          ></video>
+          <div class="cabinet-bottom">
+            <div>
+              <span>Projects</span>
+              <strong>28</strong>
+            </div>
+            <button class="lever-button" type="button">Replay</button>
+          </div>
+        </aside>
+      </section>
+
+      <section id="reel" class="section-shell reel-section" aria-label="视频作品轮播">
+        <div class="section-heading reveal-item">
+          <div>
+            <p class="pixel-label">Video Reel</p>
+            <h2>影像卷轴</h2>
+          </div>
+          <div class="carousel-controls" aria-label="视频轮播控制">
+            <button class="icon-button reel-prev" type="button" aria-label="上一条视频">
+              <i data-lucide="chevron-left" aria-hidden="true"></i>
+            </button>
+            <button class="icon-button reel-next" type="button" aria-label="下一条视频">
+              <i data-lucide="chevron-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="video-carousel reveal-item">
+          <!-- 灵芝茶 · AI视频 -->
+          <article class="video-card is-active">
+            <video data-src="./assets/compressed/portfolio/01_lingzhi_seedance_01.mp4" muted loop playsinline poster="./assets/posters/portfolio/01_lingzhi_seedance_01.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>01 / 灵芝茶</span>
+              <h3>Seedance 2.0 AI真人带货</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/02_lingzhi_seedance_02.mp4" muted loop playsinline poster="./assets/posters/portfolio/02_lingzhi_seedance_02.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>02 / 灵芝茶</span>
+              <h3>Seedance 2.0 带货变体</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/03_lingzhi_live_batch.mp4" muted loop playsinline poster="./assets/posters/portfolio/03_lingzhi_live_batch.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>03 / 灵芝茶</span>
+              <h3>AI真人批量带货</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/04_lingzhi_promo_full.mp4" muted loop playsinline poster="./assets/posters/portfolio/04_lingzhi_promo_full.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>04 / 灵芝茶</span>
+              <h3>灵芝鹤谷宣传片</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/05_lingzhi_creative_2.mp4" muted loop playsinline poster="./assets/posters/portfolio/05_lingzhi_creative_2.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>05 / 灵芝茶</span>
+              <h3>灵芝茶创意短片</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/06_lingzhi_cloud_crane.mp4" muted loop playsinline poster="./assets/posters/portfolio/06_lingzhi_cloud_crane.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>06 / 灵芝茶</span>
+              <h3>云海寻仙创意</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/07_lingzhi_dangshen.mp4" muted loop playsinline poster="./assets/posters/portfolio/07_lingzhi_dangshen.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>07 / 灵芝茶</span>
+              <h3>党参创意短片</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/08_lingzhi_warm.mp4" muted loop playsinline poster="./assets/posters/portfolio/08_lingzhi_warm.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>08 / 灵芝茶</span>
+              <h3>温情叙事短片</h3>
+            </div>
+          </article>
+
+          <!-- ETC · 品牌全案 -->
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/09_etc_person_1.mp4" muted loop playsinline poster="./assets/posters/portfolio/09_etc_person_1.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>09 / ETC</span>
+              <h3>AI人物主视觉</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/10_etc_person_23.mp4" muted loop playsinline poster="./assets/posters/portfolio/10_etc_person_23.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>10 / ETC</span>
+              <h3>AI人物广告节点</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/11_etc_person_7.mp4" muted loop playsinline poster="./assets/posters/portfolio/11_etc_person_7.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>11 / ETC</span>
+              <h3>AI人物场景节点</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/12_etc_scene_19.mp4" muted loop playsinline poster="./assets/posters/portfolio/12_etc_scene_19.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>12 / ETC</span>
+              <h3>AI实拍素材 19</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/13_etc_scene_5.mp4" muted loop playsinline poster="./assets/posters/portfolio/13_etc_scene_5.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>13 / ETC</span>
+              <h3>AI实拍场景 5</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/14_etc_scene_6.mp4" muted loop playsinline poster="./assets/posters/portfolio/14_etc_scene_6.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>14 / ETC</span>
+              <h3>AI实拍场景 6</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/15_etc_speed_ad.mp4" muted loop playsinline poster="./assets/posters/portfolio/15_etc_speed_ad.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>15 / ETC</span>
+              <h3>高速 ETC 广告</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/16_etc_wuxia.mp4" muted loop playsinline poster="./assets/posters/portfolio/16_etc_wuxia.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>16 / ETC</span>
+              <h3>华山论剑创意</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/17_etc_wukong.mp4" muted loop playsinline poster="./assets/posters/portfolio/17_etc_wukong.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>17 / ETC</span>
+              <h3>悟空创意广告</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/18_etc_node_8.mp4" muted loop playsinline poster="./assets/posters/portfolio/18_etc_node_8.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>18 / ETC</span>
+              <h3>ETC 创意节点</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/19_etc_yaban.mp4" muted loop playsinline poster="./assets/posters/portfolio/19_etc_yaban.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>19 / ETC</span>
+              <h3>酱板鸭创意短片</h3>
+            </div>
+          </article>
+
+          <!-- 寿司 · 海外品牌 -->
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/20_sushi_soy_sauce.mp4" muted loop playsinline poster="./assets/posters/portfolio/20_sushi_soy_sauce.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>20 / 寿司</span>
+              <h3>酱油的正确用法</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/21_sushi_wasabi.mp4" muted loop playsinline poster="./assets/posters/portfolio/21_sushi_wasabi.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>21 / 寿司</span>
+              <h3>山葵的正确用法</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/22_sushi_chibo_27.mp4" muted loop playsinline poster="./assets/posters/portfolio/22_sushi_chibo_27.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>22 / 寿司</span>
+              <h3>海外吃播 27</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/23_sushi_chibo_hat.mp4" muted loop playsinline poster="./assets/posters/portfolio/23_sushi_chibo_hat.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>23 / 寿司</span>
+              <h3>海外吃播人物</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/24_sushi_chibo_21.mp4" muted loop playsinline poster="./assets/posters/portfolio/24_sushi_chibo_21.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>24 / 寿司</span>
+              <h3>海外吃播 21</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/25_sushi_creative_2.mp4" muted loop playsinline poster="./assets/posters/portfolio/25_sushi_creative_2.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>25 / 寿司</span>
+              <h3>寿司创意短片</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/26_sushi_logo_1.mp4" muted loop playsinline poster="./assets/posters/portfolio/26_sushi_logo_1.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>26 / 寿司</span>
+              <h3>Logo 动画 01</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/27_sushi_logo_2.mp4" muted loop playsinline poster="./assets/posters/portfolio/27_sushi_logo_2.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>27 / 寿司</span>
+              <h3>Logo 动画 02</h3>
+            </div>
+          </article>
+          <article class="video-card">
+            <video data-src="./assets/compressed/portfolio/28_sushi_dot.mp4" muted loop playsinline poster="./assets/posters/portfolio/28_sushi_dot.jpg" preload="none"></video>
+            <div class="video-meta">
+              <span>28 / 寿司</span>
+              <h3>寿司创意节点</h3>
+            </div>
+          </article>
+        </div>
+        <div class="carousel-dots" aria-label="视频轮播页码"></div>
+      </section>
+
+      <section id="about" class="section-shell file-section">
+        <div class="section-heading reveal-item">
+          <p class="pixel-label">Player File</p>
+          <h2>技能库存</h2>
+        </div>
+        <div class="inventory-grid">
+          <article class="log-card reveal-item">
+            <span>Role</span>
+            <h3>龚波安 · AIGC 创意设计师</h3>
+            <p>21岁 · 广州</p>
+            <p>从模糊需求里找出可交付的AI视觉流程，把它做成Prompt、Workflow、品牌创意或内容系统。具备海外品牌及国内消费品牌AIGC商业内容生产经验。</p>
+          </article>
+          <div class="skill-panel reveal-item">
+            <div class="skill-row">
+              <span>AI Image Generation</span>
+              <meter value="92" max="100"></meter>
+            </div>
+            <div class="skill-row">
+              <span>AI Video Production</span>
+              <meter value="88" max="100"></meter>
+            </div>
+            <div class="skill-row">
+              <span>Prompt Engineering</span>
+              <meter value="90" max="100"></meter>
+            </div>
+            <div class="skill-row">
+              <span>Workflow Design</span>
+              <meter value="85" max="100"></meter>
+            </div>
+            <div class="skill-row">
+              <span>Brand Creative</span>
+              <meter value="82" max="100"></meter>
+            </div>
+          </div>
+          <div class="mini-map reveal-item" aria-label="核心工具">
+            <span>Midjourney</span>
+            <span>ComfyUI</span>
+            <span>Flux</span>
+            <span>ChatGPT</span>
+            <span>可灵</span>
+            <span>即梦</span>
+            <span>Nano Banana</span>
+            <span>Gemini</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section-shell experience-section">
+        <div class="section-heading reveal-item">
+          <p class="pixel-label">Career Log</p>
+          <h2>工作经历</h2>
+        </div>
+        <div class="experience-board">
+          <article class="experience-card reveal-item">
+            <div class="experience-header">
+              <span class="experience-code">CURRENT</span>
+              <span class="experience-date">2026.03 — 至今</span>
+            </div>
+            <h3>AIGC 创意设计师（实习转正）</h3>
+            <p class="experience-company">广东中视信息科技</p>
+            <ul class="experience-duties">
+              <li>负责灵芝茶、ETC品牌AI广告、TVC、带货视频及商业视觉内容制作</li>
+              <li>使用 ChatGPT、Nano Banana、Dreamina、Seedance、ComfyUI、LiblibAI 等工具完成AI内容生产</li>
+              <li>协助视觉设计师完成AI商业视觉生成，提高设计效率</li>
+              <li>拆解抖音、小红书爆款内容，沉淀Prompt模板、Workflow及创意方法</li>
+            </ul>
+          </article>
+          <article class="experience-card reveal-item">
+            <div class="experience-header">
+              <span class="experience-code">PAST</span>
+              <span class="experience-date">2026.01 — 2026.06</span>
+            </div>
+            <h3>AIGC 内容运营（实习）</h3>
+            <p class="experience-company">个人线上实习（乙方）</p>
+            <ul class="experience-duties">
+              <li>负责美国寿司外卖品牌 TikTok、YouTube Shorts 账号AI内容制作</li>
+              <li>制作AI吃播视频、创意广告视频及品牌IP内容</li>
+              <li>拆解TikTok、YouTube爆款视频并完成创意转化</li>
+              <li>优化Prompt及内容生产流程</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section-shell mission-section">
+        <div class="section-heading reveal-item">
+          <p class="pixel-label">Mission Board</p>
+          <h2>项目作品</h2>
+        </div>
+        <div class="mission-filter" aria-label="作品筛选">
+          <button class="filter-btn is-active" type="button" data-filter="all">全部</button>
+          <button class="filter-btn" type="button" data-filter="aivideo">AI视频</button>
+          <button class="filter-btn" type="button" data-filter="brand">品牌全案</button>
+          <button class="filter-btn" type="button" data-filter="workflow">工作流</button>
+        </div>
+        <div class="mission-board">
+          <article class="mission-card reveal-item" data-category="brand">
+            <div class="mission-code">001</div>
+            <h3>灵芝茶品牌 AI 内容</h3>
+            <p>负责TVC广告、AI带货视频、商业视觉制作；两天完成254条AI带货视频素材，覆盖全渠道投放需求。</p>
+            <span class="mission-stat">254条 / 2天</span>
+            <a href="#reel">查看影像</a>
+          </article>
+          <article class="mission-card reveal-item" data-category="brand">
+            <div class="mission-code">002</div>
+            <h3>ETC 品牌 AI 创意</h3>
+            <p>负责AI创意广告、产品宣传视频及营销素材制作，打通AI生成到品牌投放的完整链路。</p>
+            <a href="#reel">查看影像</a>
+          </article>
+          <article class="mission-card reveal-item" data-tilt data-category="aivideo">
+            <div class="mission-code">003</div>
+            <h3>灵芝茶 AI 视频系统</h3>
+            <p>从0搭建完整AI视频生产流水线：竞品采集与12维打分→五库知识系统→脚本生成→分镜生成→即梦/Seedance出视频。Python Web应用，双击exe即可交付编导团队使用。</p>
+            <span class="mission-stat">竞品12维 · 五库系统</span>
+            <a href="#contact">了解更多</a>
+          </article>
+          <article class="mission-card reveal-item" data-tilt data-category="workflow">
+            <div class="mission-code">004</div>
+            <h3>Shotboard 拍摄统筹工具</h3>
+            <p>把短视频脚本自动拆解为当天可执行的拍摄方案：分镜明细、提词器、拍摄清单、待确认项。按场景/妆造/机位合并拍摄顺序，支持批量脚本逐条处理与多组统筹。</p>
+            <a href="#contact">了解更多</a>
+          </article>
+          <article class="mission-card reveal-item" data-tilt data-category="workflow">
+            <div class="mission-code">005</div>
+            <h3>逐镜头视频飞书交付 Loop</h3>
+            <p>脚本→UGC基准图→9张分镜图→9个逐镜头视频→飞书交付表格的全自动化流程。支持批量并发、小云雀补跑、LibTV画布整理，一个脚本一键跑通整条管线。</p>
+            <span class="mission-stat">9分镜 → 9视频 · 一键跑通</span>
+            <a href="#contact">了解更多</a>
+          </article>
+          <article class="mission-card reveal-item" data-tilt data-category="aivideo">
+            <div class="mission-code">006</div>
+            <h3>寿司外卖品牌 TikTok</h3>
+            <p>为美国寿司外卖品牌制作TikTok、YouTube Shorts AI内容，包括AI吃播视频、创意广告视频及品牌IP内容。</p>
+            <a href="#reel">查看影像</a>
+          </article>
+          <article class="mission-card reveal-item" data-tilt data-category="aivideo">
+            <div class="mission-code">007</div>
+            <h3>寿司品牌 Logo 动画</h3>
+            <p>AI生成的品牌Logo动画视频，用于品牌社媒账号头图及广告投放。</p>
+            <a href="#reel">查看影像</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section-shell contact-section reveal-item">
+        <div>
+          <p class="pixel-label">Start Run</p>
+          <h2>一起探索 AI 创意的边界。</h2>
+          <p>AIGC 品牌广告、AI 视频制作、Prompt 工程、Workflow 设计 — 从一个明确的小任务开始。</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:2469784595@qq.com">
+            <i data-lucide="mail" aria-hidden="true"></i>
+            2469784595@qq.com
+          </a>
+          <a class="button button-secondary" href="tel:19573812523">
+            <i data-lucide="phone" aria-hidden="true"></i>
+            195 7381 2523
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 龚波安</span>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.3.23/dist/lenis.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/lucide@1.21.0/dist/umd/lucide.min.js"></script>
+    <script defer src="./script.js"></script>
+  </body>
+</html>
