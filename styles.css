@@ -398,6 +398,42 @@ body.intro-complete .intro-gate {
   font-size: clamp(17px, 2vw, 20px);
 }
 
+.hero-actions {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 26px;
+}
+
+.impact-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.impact-strip div {
+  min-height: 88px;
+  padding: 14px;
+  border: 2px solid rgba(255, 201, 91, 0.22);
+  border-radius: var(--radius);
+  background: rgba(8, 4, 3, 0.64);
+}
+
+.impact-strip strong {
+  display: block;
+  color: var(--gold);
+  font-family: var(--pixel);
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1;
+}
+
+.impact-strip span {
+  display: block;
+  margin-top: 8px;
+  color: #d8b184;
+  font-size: 13px;
+}
+
 .main-menu {
   display: grid;
   gap: 10px;
@@ -1012,6 +1048,31 @@ body.lightbox-open {
   margin-bottom: 22px;
 }
 
+.reel-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: -8px 0 22px;
+}
+
+.reel-tabs a {
+  min-height: 40px;
+  padding: 8px 16px;
+  border: 2px solid rgba(255, 201, 91, 0.24);
+  border-radius: 999px;
+  background: rgba(12, 6, 4, 0.58);
+  color: #e5c190;
+  font-family: var(--pixel);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.reel-tabs a:hover {
+  border-color: rgba(255, 201, 91, 0.48);
+  background: rgba(255, 201, 91, 0.1);
+  color: var(--gold);
+}
+
 .filter-btn {
   min-height: 40px;
   padding: 0 18px;
@@ -1187,6 +1248,14 @@ body.lightbox-open {
 
   .ticker {
     margin-bottom: 44px;
+  }
+
+  .hero-actions {
+    display: grid;
+  }
+
+  .impact-strip {
+    grid-template-columns: 1fr;
   }
 
   .poster-tags {
