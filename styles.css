@@ -770,6 +770,7 @@ meter::-webkit-meter-optimum-value {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
+  align-items: stretch;
 }
 
 .mission-card {
@@ -788,8 +789,42 @@ meter::-webkit-meter-optimum-value {
 }
 
 .mission-card p {
-  min-height: 94px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
+}
+
+.mission-kicker {
+  min-height: auto;
+  color: #ffcf75;
+  font-weight: 900;
+}
+
+.mission-list {
+  margin: 0 0 18px;
+  padding-left: 18px;
+  color: #e5c79e;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.mission-list li {
+  margin-bottom: 8px;
+}
+
+.mission-result {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 8px;
+}
+
+.mission-result span {
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 201, 91, 0.3);
+  border-radius: 4px;
+  background: rgba(255, 201, 91, 0.08);
+  color: #fff0ce;
+  font-size: 12px;
+  font-weight: 900;
 }
 
 .mission-card a {
